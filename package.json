@@ -2,5 +2,8 @@
   "dependencies": {
     "react-router-dom": "^7.1.1"
   }
+  "scripts": {
+  "build": "your_build_command_here"
+}
 }
 
