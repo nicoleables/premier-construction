@@ -1,6 +1,13 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
   "dependencies": {
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+        "react-router-dom": "^7.1.1"
+
+  },
+  "scripts": {
+    "build": "npm run dev"
   }
   "scripts": {
   "build": "your_build_command_here"
