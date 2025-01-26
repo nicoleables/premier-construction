@@ -13,7 +13,7 @@
   .book-image {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 55%;
     margin-top: -25rem;
     object-fit: cover; 
     filter: brightness(70%);
@@ -88,7 +88,7 @@
     background-color: black;
     color: white;
     padding-left: 2rem;
-    margin-top: 28rem;
+    margin-top: 35rem;
   }
   
   .quote-section h2 {
@@ -192,6 +192,118 @@
   .textbtn:hover {
     transform: scale(1.1); /* Scale the button to 110% on hover */
     cursor: pointer; /* Change cursor to pointer */
+  }
+
+  @media (max-width: 420px) {
+    .book h1 {
+      font-size: 2rem;
+    }
+  
+    .bookquote button {
+      top: 5px;
+      margin-bottom: 8rem;
+    }
+    
+    .quote-section {
+      margin-bottom: 8rem;
+      position: relative; /* Ensure the section is positioned relative to its parent container */
+    }
+    
+    .quote-section h2 {
+      position: relative; /* Position the heading relative to its parent */
+      right: 1.5rem;
+      font-size: 30px;
+      top: -8rem; /* Move the heading up */
+    }
+    
+    .quote-section h2::after {
+      width: 9rem;
+      top: 1.2rem; /* Move the after pseudo-element up */
+    }
+    
+    .quote-section p {
+      position: relative; /* Position the paragraph relative to its parent */
+      font-size: 18px;
+      width: 25rem;
+      top: -8.5rem; 
+      margin-left: -1.7rem;
+      /* Move the paragraph up in sync with the heading */
+    }
+    
+    .quote-box-container {
+      left: 0; /* Align paragraph to the left */
+      gap: 1.5rem; /* Space between boxes */
+      margin-top: -5rem; /* Adjust margin */
+    }
+  
+    .quote-box {
+      top: -2.5rem; 
+      margin-right: 1.rem;
+      width: 80%; /* Ensure it takes full width */
+      max-width: 100px; /* Set maximum width */
+      padding: .1rem; /* Adjust padding */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+      text-align: center; /* Center the text */
+    }
+  
+    .red-box {
+      margin-left: -3rem;
+      width: 100px;
+      height: 9rem;
+    }
+  
+    .white-box {
+      background-color: white; 
+      height: 9rem;
+      /* Adjust background color */
+    }
+  
+    .quotebtn {
+      display: block;
+      font-size: 1rem; /* Adjust font size */
+      margin-bottom: 0.5rem; /* Space between elements */
+    }
+
+    .textbtn {
+      height: 4rem;
+    }
+  
+    .textbtn {
+      font-size: 1rem; /* Adjust font size */
+      padding: 0.5rem 1rem; /* Adjust padding */
+      background-color: white; /* Adjust background color */
+      border: 1px solid black; /* Add border */
+      border-radius: 5px; /* Rounded corners */
+    }
+  }
+
+  @media (max-width: 420px) {
+    .quote-section {
+      margin-top: 42rem; /* Increase margin-top for even skinnier screens */
+    }
+  }
+
+  @media (min-device-width: 428px) and (max-device-width: 430px) and (min-device-height: 926px) and (max-device-height: 932px) and (-webkit-min-device-pixel-ratio: 3) {
+    .quote-section {
+      margin-top: 30rem; /* Specific adjustment for iPhone 14 Pro Max */
+      margin-right: 3rem;
+    }
+  
+    .book-text h1 {
+      margin-top: -8rem;
+    }
+  }
+
+  @media (min-width: 535px) and (max-width: 540px) and (min-height: 838px) and (max-height: 845px) {
+    .quote-section {
+      margin-top: 30rem; 
+      width: 90%;
+      margin-right: 6rem
+    }
+  
+    .book-text h1 {
+      margin-top: -5rem;
+    }
   }
   
   
