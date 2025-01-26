@@ -1,13 +1,16 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router } from "react-router-dom";
-import App from './App.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" href="/styles.css" /> <!-- Ensure correct path to CSS file -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router>
-    <App />
-  </Router>
-);
 
