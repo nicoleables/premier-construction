@@ -211,7 +211,7 @@
     
     .quote-section h2 {
       position: relative; /* Position the heading relative to its parent */
-      right: 1.5rem;
+      right: 2.5rem;
       font-size: 30px;
       top: -8rem; /* Move the heading up */
     }
@@ -222,11 +222,12 @@
     }
     
     .quote-section p {
-      position: relative; /* Position the paragraph relative to its parent */
-      font-size: 18px;
-      width: 25rem;
-      top: -8.5rem; 
-      margin-left: -1.7rem;
+        position: relative;
+        font-size: 18px;
+        width: 25rem;
+        top: -8.5rem;
+        margin-left: -2.8rem;
+        width: 100%;
       /* Move the paragraph up in sync with the heading */
     }
     
