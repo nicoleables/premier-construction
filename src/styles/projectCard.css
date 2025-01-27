@@ -180,8 +180,8 @@
   }
 
   .project p {
-    font-size: 1.5rem;
-    margin-left: -1.7rem;
+    font-size: 1.2rem;
+    margin-left: -1.9rem;
   }
 
   .project p::after {
@@ -189,7 +189,7 @@
     width: 20%;
   }
 
-  .projectbtn {
+  button.projectbtn {
     margin-left: -22.5rem;
     font-size: .5rem;
     top: -3.1rem
@@ -197,6 +197,7 @@
 
     .project-container ul {
       display: grid;
+      margin-left: 1rem;
       margin-top: -2rem;
       grid-template-columns: repeat(3, 1fr); /* Define three columns */
       gap: 1.8rem; /* Add space between items */
